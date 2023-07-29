@@ -70,3 +70,62 @@ cat myfile.txt
 
 my name is Dipon
 ```
+
+### Making directories
+**Command:** _mkdir foldername_
+
+```bash
+ls
+
+file1 file2.txt file3.py
+
+mkdir new_folder
+
+ls
+
+file1 file2.txt file3.py new_folder
+```
+
+### Moving files
+**Command:** _mv filename_to_be_moved foldername/directory_path_where_the_file_move
+
+```bash
+ls
+
+file1 file2.txt file3.py
+
+mkdir new_folder
+
+ls
+
+file1 file2.txt file3.py new_folder
+
+mv file3.py new_folder
+
+ls
+
+file1 file2.txt new_folder
+
+cd new_folder
+
+ls
+
+file3.py
+```
+
+### Copying files
+**Command:** _cp filename_of_the_file_to_be_copied new_filename_
+
+(Same as command _mv_)
+
+```bash
+ls
+
+file1 file2.txt file3.py new_folder
+
+cp file3.py file4.py
+
+ls
+
+file1 file2.txt file3.py file4.py new_folder
+```
